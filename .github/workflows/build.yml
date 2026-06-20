@@ -1,4 +1,18 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+    paths: &paths
+      - "config/**"
+      - "zephyr/**"
+      - "build.yaml"
+  pull_request_target:
+    branches:
+      - main
+    paths: *paths
+    types:
+      - opened
+  workflow_dispatch:
 
 jobs:
   build:
