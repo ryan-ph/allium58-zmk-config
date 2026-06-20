@@ -1,5 +1,6 @@
 # allium58-zmk-config
 
+Keymaps can be updated manually or through a [web interface](https://nickcoutsos.github.io/keymap-editor/).
 
 <img src="keymap-drawer/my_keymap.png"  alt="my_keymap">
 
