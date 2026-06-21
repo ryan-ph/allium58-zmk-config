@@ -1,0 +1,29 @@
+name: Draw ZMK keymaps
+on:
+  # Neither of these currently work due to rulesets being enabled.
+  #
+  # workflow_dispatch:
+  # push:
+  #   paths: *paths
+  #   branches:
+  #     - main
+  pull_request_target:
+    paths: &paths
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "keymap-drawer/config.yml"
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write  # Allow workflow to commit to the repo
+    with:
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap-drawer/config.yml"
+      output_folder: "keymap-drawer"
+      # Skip CI to avoid re-triggering firmware builds
+      commit_message: "keymap-drawer: render images [skip ci]"

@@ -3,7 +3,8 @@ on:
     branches:
       - main
     paths: &paths
-      - "config/**"
+      - "config/*.keymap"
+      - "config/*.dtsi"
       - "zephyr/**"
       - "build.yaml"
   pull_request_target:
@@ -12,6 +13,7 @@ on:
     paths: *paths
     types:
       - opened
+      - synchronize
   workflow_dispatch:
 
 jobs:
