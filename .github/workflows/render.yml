@@ -1,0 +1,27 @@
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch:
+  push:               # automatically run on changes to following paths
+    paths: &paths
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "keymap-drawer/config.yml"
+    branches:
+      - main
+  pull_request_target:
+    paths: *paths
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write  # Allow workflow to commit to the repo
+    with:
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap-drawer/config.yml"
+      output_folder: "keymap-drawer"
+      # Skip CI to avoid re-triggering firmware builds
+      commit_message: "keymap-drawer: render images [skip ci]"
