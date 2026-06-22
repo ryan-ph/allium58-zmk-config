@@ -54,7 +54,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - lower
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '&mt BACKSPACE'}
+  - {t: '$$mdi:backspace$$', h: '&mt LSHIFT'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: raise}
   - $$mdi:apple-keyboard-shift$$
