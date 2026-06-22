@@ -652,12 +652,7 @@ draw_config:
     .keypos-23 .key,
     .keypos-24 .key,
     .keypos-35 .key,
-    .keypos-36 .key,
-    .keypos-37 .key,
-    .keypos-38 .key,
-    .keypos-39 .key,
-    .keypos-40 .key,
-    .keypos-41 .key {
+    .keypos-36 .key {
         --color--key--bg: var(--color--material--blue-gray--100);
         --color--key--border: var(--color--material--blue-gray--50);
     }
