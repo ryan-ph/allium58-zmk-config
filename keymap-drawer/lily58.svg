@@ -294,6 +294,14 @@ rect.combo {
     translate: 26px 2px;
 }
 
+/* Layer-activator hold legends (e.g. "raise" on a layer-tap binding):
+ * keep horizontally centered within the key and nudge up slightly
+ * so the legend doesn't sit flush against the bottom rect edge.
+ */
+.hold.layer-activator {
+    translate: 0 -2px;
+}
+
 
 /*
  * Combos
