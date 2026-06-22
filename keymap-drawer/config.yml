@@ -380,6 +380,20 @@ draw_config:
         --logo-size: 12%;
         --logo-position: 49.5% 5%;
 
+        /* Horizontal center of the rendered keyboard inside each layer group.
+         * Equal to the SVG viewBox width / 2 (lily58 = 1320 / 2 = 660).
+         * Update this if key_h, padding, or the board layout changes.
+         */
+        --board-half-width: 660px;
+
+        /* Vertical position of the layer label inside each layer group,
+         * measured from the top of the layer's group element. Tuned to sit
+         * in the empty space between the two halves of the split, roughly
+         * between row 1 and row 2 of keys (key_h = 80 -> ~1.825 * key_h = 146).
+         * Update this if key_h, inner_pad_h, or the board layout changes.
+         */
+        --layer-label-y: 146px;
+
         /* === Colors === */
 
         --color--material--blue--50: rgb(227, 242, 253);
@@ -536,13 +550,10 @@ draw_config:
     /* Layer labels */
     text.label {
         font-size: 36px;
-        text-anchor: start;
+        text-anchor: middle;
         paint-order: stroke;
         fill: var(--color--layer--text);
-        translate: 581px 146px;
-    }
-    .layer-Fn text.label {
-        translate: 581px 164px;
+        translate: var(--board-half-width) var(--layer-label-y);
     }
 
 
