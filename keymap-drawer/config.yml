@@ -654,18 +654,6 @@ draw_config:
         --color--key--border: var(--color--material--blue-gray--50);
     }
 
-    .keypos-12 .key {
-        --color--key--bg: var(--color--material--red--300);
-        --color--key--border: var(--color--material--red--200);
-        --color--key--text--shifted: var(--color--key--text--tap);
-        --color--key--text--hold: var(--color--key--text--tap);
-    }
-
-    .keypos-23 .key {
-        --color--key--bg: var(--color--material--teal--200);
-        --color--key--border: var(--color--material--teal--100);
-    }
-
     .keypos-0 .shifted,
     .keypos-1 .shifted,
     .keypos-2 .shifted,
