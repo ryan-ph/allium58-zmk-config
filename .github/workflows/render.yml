@@ -1,13 +1,6 @@
 name: Draw ZMK keymaps
 on:
-  # Neither of these currently work due to rulesets being enabled.
-  #
-  # workflow_dispatch:
-  # push:
-  #   paths: *paths
-  #   branches:
-  #     - main
-  pull_request_target:
+  pull_request:
     paths: &paths
       - "config/*.keymap"
       - "config/*.dtsi"
@@ -15,6 +8,13 @@ on:
     types:
       - opened
       - synchronize
+  # Neither of these currently work due to rulesets being enabled.
+  #
+  # workflow_dispatch:
+  # push:
+  #   paths: *paths
+  #   branches:
+  #     - main
 
 jobs:
   draw:
