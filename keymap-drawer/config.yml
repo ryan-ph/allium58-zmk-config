@@ -384,7 +384,7 @@ draw_config:
          * Equal to the SVG viewBox width / 2 (lily58 = 1320 / 2 = 660).
          * Update this if key_h, padding, or the board layout changes.
          */
-        --board-half-width: 660px;
+        --board-half-width: 60px;
 
         /* Vertical position of the layer label inside each layer group,
          * measured from the top of the layer's group element. Tuned to sit
