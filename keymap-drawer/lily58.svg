@@ -358,6 +358,15 @@ path.combo {
     --color--key--border: var(--color--material--blue-gray--50);
 }
 
+/* Held keys: the layer-activator keys shown on the layer they activate
+ * (e.g. the "lower" thumb key on the lower layer, the "raise" thumb key
+ * on the raise layer).
+ */
+rect.key.held {
+    --color--key--bg: var(--color--material--red--200);
+    --color--key--border: var(--color--material--red--100);
+}
+
 .keypos-0 .shifted,
 .keypos-1 .shifted,
 .keypos-2 .shifted,
