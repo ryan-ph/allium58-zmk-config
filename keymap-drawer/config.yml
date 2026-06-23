@@ -646,15 +646,26 @@ draw_config:
      * Overrides
      */
     /* Outer column + thumb keys */
-    .keypos-0 .key,
-    .keypos-11 .key,
-    .keypos-12 .key,
-    .keypos-23 .key,
-    .keypos-24 .key,
-    .keypos-35 .key,
-    .keypos-36 .key {
+     .keypos-0 .key,
+     .keypos-12 .key,
+     .keypos-24 .key,
+     .keypos-36 .key,
+     .keypos-50 .key,
+     .keypos-51 .key,
+     .keypos-52 .key,
+     .keypos-53 .key,
+     .keypos-54 .key,
+     .keypos-55 .key,
+     .keypos-56 .key,
+     .keypos-57 .key {
         --color--key--bg: var(--color--material--blue-gray--100);
         --color--key--border: var(--color--material--blue-gray--50);
+    }
+
+    /* Grave key on the lower layer: reset to the default key colors */
+    .layer-lower .keypos-24 .key {
+        --color--key--bg: var(--color--material--blue-gray--50);
+        --color--key--border: white;
     }
 
     /* Held keys: the layer-activator keys shown on the layer they activate
