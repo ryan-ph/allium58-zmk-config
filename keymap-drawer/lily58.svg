@@ -1022,21 +1022,21 @@ rect.key.held {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(880, 60)" class="key keypos-6">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-off"/>
+<g transform="translate(880, 60)" class="key trans keypos-6">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(960, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-medium" xlink:href="#mdi:volume-medium" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-medium"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-off"/>
 </g>
 <g transform="translate(1040, 40)" class="key keypos-8">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-high"/>
+<use href="#mdi:volume-medium" xlink:href="#mdi:volume-medium" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-medium"/>
 </g>
-<g transform="translate(1120, 50)" class="key trans keypos-9">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(1120, 50)" class="key keypos-9">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-high"/>
 </g>
 <g transform="translate(1200, 70)" class="key trans keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1070,21 +1070,21 @@ rect.key.held {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(880, 140)" class="key keypos-18">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-previous"/>
+<g transform="translate(880, 140)" class="key trans keypos-18">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(960, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:play-pause"/>
+<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-previous"/>
 </g>
 <g transform="translate(1040, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-next"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:play-pause"/>
 </g>
-<g transform="translate(1120, 130)" class="key trans keypos-21">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(1120, 130)" class="key keypos-21">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-next"/>
 </g>
 <g transform="translate(1200, 150)" class="key trans keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1124,11 +1124,11 @@ rect.key.held {
 </g>
 <g transform="translate(960, 210)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:arrow-up-bold"/>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:arrow-down-bold"/>
 </g>
 <g transform="translate(1040, 200)" class="key keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:arrow-down-bold"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(1120, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
